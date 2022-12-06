@@ -10,9 +10,6 @@ def won(c, n):
   if c[0] == n and c[4] == n and c[8] == n: return 1
   if c[2] == n and c[4] == n and c[6] == n: return 1
 
-
-  
-
   return 0
 
 pc = [' ', 'x', 'o']
